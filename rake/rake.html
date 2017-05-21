@@ -1,0 +1,81 @@
+<script type="text/javascript">
+    RED.nodes.registerType('rake',{
+        category: 'function',
+        color: '#a6bbcf',
+        defaults: {
+            name: {value:""},
+            stopWords: {value:"able\nabout\nabove\nabroad\naccording\naccordingly\nacross\nactually\nadj\nafter\nafterwards\nagain\nagainst\nago\nahead\nain't\nall\nallow\nallows\nalmost\nalone\nalong\nalongside\nalready\nalso\nalthough\nalways\nam\namid\namidst\namong\namongst\nan\nand\nanother\nany\nanybody\nanyhow\nanyone\nanything\nanyway\nanyways\nanywhere\napart\nappear\nappreciate\nappropriate\nare\naren't\naround\nas\na's\naside\nask\nasking\nassociated\nat\navailable\naway\nawfully\nback\nbackward\nbackwards\nbe\nbecame\nbecause\nbecome\nbecomes\nbecoming\nbeen\nbefore\nbeforehand\nbegin\nbehind\nbeing\nbelieve\nbelow\nbeside\nbesides\nbest\nbetter\nbetween\nbeyond\nboth\nbrief\nbut\nby\ncame\ncan\ncannot\ncant\ncan't\ncaption\ncause\ncauses\ncertain\ncertainly\nchanges\nclearly\nc'mon\nco\nco.\ncom\ncome\ncomes\nconcerning\nconsequently\nconsider\nconsidering\ncontain\ncontaining\ncontains\ncorresponding\ncould\ncouldn't\ncourse\nc's\ncurrently\ndare\ndaren't\ndefinitely\ndescribed\ndespite\ndid\ndidn't\ndifferent\ndirectly\ndo\ndoes\ndoesn't\ndoing\ndone\ndon't\ndown\ndownwards\nduring\neach\nedu\neg\neight\neighty\neither\nelse\nelsewhere\nend\nending\nenough\nentirely\nespecially\net\netc\neven\never\nevermore\nevery\neverybody\neveryone\neverything\neverywhere\nex\nexactly\nexample\nexcept\nfairly\nfar\nfarther\nfew\nfewer\nfifth\nfirst\nfive\nfollowed\nfollowing\nfollows\nfor\nforever\nformer\nformerly\nforth\nforward\nfound\nfour\nfrom\nfurther\nfurthermore\nget\ngets\ngetting\ngiven\ngives\ngo\ngoes\ngoing\ngone\ngot\ngotten\ngreetings\nhad\nhadn't\nhalf\nhappens\nhardly\nhas\nhasn't\nhave\nhaven't\nhaving\nhe\nhe'd\nhe'll\nhello\nhelp\nhence\nher\nhere\nhereafter\nhereby\nherein\nhere's\nhereupon\nhers\nherself\nhe's\nhi\nhim\nhimself\nhis\nhither\nhopefully\nhow\nhowbeit\nhowever\nhundred\ni'd\nie\nif\nignored\ni'll\ni'm\nimmediate\nin\ninasmuch\ninc\ninc.\nindeed\nindicate\nindicated\nindicates\ninner\ninside\ninsofar\ninstead\ninto\ninward\nis\nisn't\nit\nit'd\nit'll\nits\nit's\nitself\ni've\njust\nk\nkeep\nkeeps\nkept\nknow\nknown\nknows\nlast\nlately\nlater\nlatter\nlatterly\nleast\nless\nlest\nlet\nlet's\nlike\nliked\nlikely\nlikewise\nlittle\nlook\nlooking\nlooks\nlow\nlower\nltd\nmade\nmainly\nmake\nmakes\nmany\nmay\nmaybe\nmayn't\nme\nmean\nmeantime\nmeanwhile\nmerely\nmight\nmightn't\nmine\nminus\nmiss\nmore\nmoreover\nmost\nmostly\nmr\nmrs\nmuch\nmust\nmustn't\nmy\nmyself\nname\nnamely\nnd\nnear\nnearly\nnecessary\nneed\nneedn't\nneeds\nneither\nnever\nneverf\nneverless\nnevertheless\nnew\nnext\nnine\nninety\nno\nnobody\nnon\nnone\nnonetheless\nnoone\nno-one\nnor\nnormally\nnot\nnothing\nnotwithstanding\nnovel\nnow\nnowhere\nobviously\nof\noff\noften\noh\nok\nokay\nold\non\nonce\none\nones\none's\nonly\nonto\nopposite\nor\nother\nothers\notherwise\nought\noughtn't\nour\nours\nourselves\nout\noutside\nover\noverall\nown\nparticular\nparticularly\npast\nper\nperhaps\nplaced\nplease\nplus\npossible\npresumably\nprobably\nprovided\nprovides\nque\nquite\nqv\nrather\nrd\nre\nreally\nreasonably\nrecent\nrecently\nregarding\nregardless\nregards\nrelatively\nrespectively\nright\nround\nsaid\nsame\nsaw\nsay\nsaying\nsays\nsecond\nsecondly\nsee\nseeing\nseem\nseemed\nseeming\nseems\nseen\nself\nselves\nsensible\nsent\nserious\nseriously\nseven\nseveral\nshall\nshan't\nshe\nshe'd\nshe'll\nshe's\nshould\nshouldn't\nsince\nsix\nso\nsome\nsomebody\nsomeday\nsomehow\nsomeone\nsomething\nsometime\nsometimes\nsomewhat\nsomewhere\nsoon\nsorry\nspecified\nspecify\nspecifying\nstill\nsub\nsuch\nsup\nsure\ntake\ntaken\ntaking\ntell\ntends\nth\nthan\nthank\nthanks\nthanx\nthat\nthat'll\nthats\nthat's\nthat've\nthe\ntheir\ntheirs\nthem\nthemselves\nthen\nthence\nthere\nthereafter\nthereby\nthere'd\ntherefore\ntherein\nthere'll\nthere're\ntheres\nthere's\nthereupon\nthere've\nthese\nthey\nthey'd\nthey'll\nthey're\nthey've\nthing\nthings\nthink\nthird\nthirty\nthis\nthorough\nthoroughly\nthose\nthough\nthree\nthrough\nthroughout\nthru\nthus\ntill\nto\ntogether\ntoo\ntook\ntoward\ntowards\ntried\ntries\ntruly\ntry\ntrying\nt's\ntwice\ntwo\nun\nunder\nunderneath\nundoing\nunfortunately\nunless\nunlike\nunlikely\nuntil\nunto\nup\nupon\nupwards\nus\nuse\nused\nuseful\nuses\nusing\nusually\nv\nvalue\nvarious\nversus\nvery\nvia\nviz\nvs\nwant\nwants\nwas\nwasn't\nway\nwe\nwe'd\nwelcome\nwell\nwe'll\nwent\nwere\nwe're\nweren't\nwe've\nwhat\nwhatever\nwhat'll\nwhat's\nwhat've\nwhen\nwhence\nwhenever\nwhere\nwhereafter\nwhereas\nwhereby\nwherein\nwhere's\nwhereupon\nwherever\nwhether\nwhich\nwhichever\nwhile\nwhilst\nwhither\nwho\nwho'd\nwhoever\nwhole\nwho'll\nwhom\nwhomever\nwho's\nwhose\nwhy\nwill\nwilling\nwish\nwith\nwithin\nwithout\nwonder\nwon't\nwould\nwouldn't\nyes\nyet\nyou\nyou'd\nyou'll\nyour\nyou're\nyours\nyourself\nyourselves\nyou've\nzero"},
+            minCharLength: {value:"3"},
+            maxWordsLength: {value:"5"},
+            minKeywordFrequency: {value:"1"}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "function.png",
+        label: function() {
+            var name = this.name;
+            return name || "rake";
+        },
+        oneditprepare: function() {
+            var that = this;
+            this.editor = RED.editor.createEditor({
+                id: 'node-input-stopWords-editor',
+                mode: 'ace/mode/markdown',
+                value: $("#node-input-stopWords").val()
+            });
+            this.editor.focus();
+        },
+        oneditsave: function() {
+            $("#node-input-stopWords").val(this.editor.getValue());
+            delete this.editor;
+        },
+        oneditresize: function(size) {
+            var rows = $("#dialog-form>div:not(.node-text-editor-row)");
+            var height = $("#dialog-form").height();
+            for (var i=0;i<rows.size();i++) {
+                height -= $(rows[i]).outerHeight(true);
+            }
+            var editorRow = $("#dialog-form>div.node-text-editor-row");
+            height -= (parseInt(editorRow.css("marginTop"))+parseInt(editorRow.css("marginBottom")));
+            $(".node-text-editor").css("height",height+"px");
+            this.editor.resize();
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="rake">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-stopWordsPath"><i class="icon-wrench"></i> Min Chars</label>
+        <input type="text" id="node-input-stopWordsPath" placeholder="3">
+    </div>
+    <div class="form-row">
+        <label for="node-input-stopWordsPath"><i class="icon-wrench"></i> Max Words</label>
+        <input type="text" id="node-input-stopWordsPath" placeholder="5">
+    </div>
+    <div class="form-row">
+        <label for="node-input-stopWordsPath"><i class="icon-wrench"></i> Frequency</label>
+        <input type="text" id="node-input-stopWordsPath" placeholder="1">
+    </div>
+    <div class="form-row" style="margin-bottom: 0px;">
+        <label for="node-input-info" style="width: 100% !important;"><i class="icon-book"></i> Stop Words</label>
+        <input type="hidden" id="node-input-stopWords" autofocus="autofocus">
+    </div>
+    <div class="form-row node-text-editor-row">
+        <div style="height: 250px; min-height:150px;" class="node-text-editor" id="node-input-stopWords-editor"></div>
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="rake">
+    <p>Provides an easy way for rapid automated keyword extraction.</p>
+    <ul>
+      <li>Min Chars: A phrase must have a min length in characters. If this field is left blank they should be set in an incoming message on <code>msg.minCharLength</code>.</li>
+      <li>Max Words: A phrase must have a max number of words. If this field is left blank they should be set in an incoming message on <code>msg.maxWordsLength</code>.</li>
+      <li>Frequency: Min frequency when counting occurances in phrases. If this field is left blank they should be set in an incoming message on <code>msg.minKeywordFrequency</code>.</li>
+      <li>Stop Words: You need to place a list of stop words. Take a look at <a href="http://trialstravails.blogspot.de/2014/04/fox-stop-words-list.html">this blog post</a> to find some usefull in different languages.</li>
+    </ul>
+    <p>Utilises npm module <a href="https://github.com/sleepycat/rapid-automated-keyword-extraction">rapid-automated-keyword-extraction</a>.</p>
+</script>

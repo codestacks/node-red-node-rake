@@ -1,0 +1,21 @@
+{
+  "name": "node-red-node-rake",
+  "version": "1.0.0",
+  "description": "Rapid automated keyword extraction wrapper",
+  "main": "rake/rake.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sebastian Apel",
+  "license": "MIT",
+  "node-red": {
+    "nodes": {
+      "rake": "rake/rake.js"
+    }
+  },
+  "dependencies": {
+    "babel-runtime": "^6.23.0",
+    "rapid-automated-keyword-extraction": "^1.0.1",
+    "tmp": "0.0.31"
+  }
+}
