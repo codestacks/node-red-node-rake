@@ -1,7 +1,7 @@
 {
   "name": "node-red-node-rake",
   "version": "1.0.0",
-  "description": "Rapid automated keyword extraction wrapper",
+  "description": "Node-RED node to utilise npm module rapid-automated-keyword-extraction",
   "main": "rake/rake.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
